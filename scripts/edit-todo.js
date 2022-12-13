@@ -5,6 +5,9 @@ window.onload = function () {
 
   let btn = document.getElementById("btn");
   btn.onclick = btnOnClick;
+
+  let cancelBtn = document.getElementById("cancelBtn");
+  cancelBtn.onclick = cancelBtnOnClick;
   
 }
 
@@ -38,4 +41,10 @@ function btnOnClick() {
 
 }
 
+
+function cancelBtnOnClick(){
+
+  document.location.href="index.html";
+
+}
 
